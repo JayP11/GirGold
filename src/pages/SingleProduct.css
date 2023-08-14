@@ -1,0 +1,291 @@
+.spec-font {
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.primary-font {
+  font-size: 150%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.secondary-font {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tertiary_font {
+  font-size: 110%;
+  font-weight: 400;
+  line-height: 1;
+}
+/*  */
+
+.product-detail {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.pro-detail-wrapper,
+.pro-nut-wrapper {
+  flex: 2;
+}
+
+.pro-img-wrapper {
+  flex: 1;
+
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dl-broc-btn {
+  background: #763b11;
+  color: #fff;
+  padding: 2% 4%;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+.dl-broc-btn:hover {
+  cursor: pointer;
+}
+
+.pro-header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+
+.pro-type-title {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  font-size: 120%;
+  align-items: flex-start;
+  margin-top: 4%;
+  color: #763b11;
+}
+
+.pro-type-title p {
+  font-weight: 600;
+
+  margin-bottom: 0;
+  background: #fff;
+  padding: 1% 2%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.pro-type-title p:hover {
+  cursor: pointer;
+  background: #763b11;
+  color: #fff;
+}
+
+.pro-detail-title {
+  max-width: 20%;
+}
+
+.pro-sub-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.pro-ben-wrapper,
+.pro-nut-wrapper {
+  flex: 1;
+}
+
+.pro-ben-title,
+.pro-nut-title {
+  color: #763b11;
+  margin-top: 4%;
+}
+
+.pro-ben-list,
+.pro-nut-list {
+  height: 300px;
+  overflow: scroll;
+  color: #763b11;
+}
+
+.pro-ben-list,
+.pro-nut-list {
+  overflow: -moz-scrollbars-none;
+}
+
+.pro-ben-list::-webkit-scrollbar {
+  width: 0 !important;
+}
+.pro-nut-list::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pro-ben-list p,
+.pro-nut-list p {
+  border-bottom: 1px solid #763b11;
+  padding: 1% 2%;
+  margin: 2% 0;
+}
+
+.pro-note-icon img {
+  width: 30%;
+}
+.pro-note-icon {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* Single Product Footer */
+/* 
+.sp-contact {
+  min-width: 100vw;
+  position: absolute;
+  width: 100vw;
+  top: 106%;
+}
+
+.sp-contact-content {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 14%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  gap: 10%;
+
+  color: #763b11;
+}
+
+.sp-footer-logo-tagline {
+  margin-top: 4%;
+}
+
+.sp-contact-first {
+  flex: 1;
+}
+
+.sp-vertical-ruler {
+  width: 1px;
+  background: #763b11;
+  height: 31vh;
+}
+
+.sp-contact-second {
+  flex: 1.3;
+}
+
+.sp-contact-first img {
+  width: 36%;
+}
+
+.sp-social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.sp-footer-sl {
+  width: 6%;
+  cursor: pointer;
+} */
+
+/* Media Query */
+
+@media screen and (max-width: 999px) {
+  .pro-detail-wrapper {
+    align-self: center;
+  }
+  /* 
+  .contact-content {
+    gap: 7%;
+  }
+  .sp-footer-logo-tagline {
+    display: none;
+  }
+  .sp-contact-first img {
+    width: 55%;
+  }
+  .sp-contact-second {
+    font-size: 80%;
+    line-height: 1.2;
+  }
+  .sp-social-links {
+    margin-top: -10px;
+  }
+  .sp-vertical-ruler {
+    height: 24vh;
+  }
+  .sp-contact-second ul li p {
+    font-size: 100%;
+  } */
+}
+
+@media screen and (max-width: 799px) {
+}
+
+@media screen and (max-width: 699px) {
+  .product-detail,
+  .pro-sub-detail {
+    flex-direction: column;
+  }
+  .sp-vertical-ruler {
+    height: 16vh;
+  }
+  /*   
+  .sp-contact-second {
+    flex: 1.6;
+  }
+  .sp-contact-first img {
+    width: 65%;
+  }
+  .sp-contact-second {
+    font-size: 70%;
+  }
+  .sp-contact-second ul li p {
+    margin-bottom: 5px;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  .pro-img-wrapper img {
+    width: 80%;
+  }
+  /* 
+  .sp-contact-second {
+    font-size: 60%;
+  }
+  .sp-contact-second ul li p {
+    font-size: 96%;
+  }
+  .sp-vertical-ruler {
+    height: 10vh;
+  } */
+
+  .dl-broc-btn {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pro-img-wrapper img {
+    width: 70%;
+  }
+  /*   
+  .sp-contact-second {
+    font-size: 50%;
+  }
+  .sp-contact-second ul li p {
+    font-size: 80%;
+  }
+  .sp-vertical-ruler {
+    height: 8vh;
+  } */
+}

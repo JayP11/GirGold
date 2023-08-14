@@ -1,0 +1,197 @@
+/* ----------------------- Super CSS ----------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+html {
+  background: #f9f8f0;
+}
+.spec-font {
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.primary-font {
+  font-size: 150%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.secondary-font {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tertiary_font {
+  font-size: 110%;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* ----------------------- About ----------------------- */
+
+.about-wrapper {
+  padding: 5%;
+}
+
+.about-header {
+  color: #763b11;
+  text-align: center;
+}
+
+.about-gg-wrapper {
+  background: #763b11;
+  padding: 2%;
+  border-radius: 26px;
+  margin-top: 4%;
+}
+
+.about-gg-border {
+  border: 2px solid #f9f8f0;
+  border-radius: 22px;
+
+  padding: 3%;
+}
+
+.about-gg-font {
+  color: #f9f8f0;
+}
+
+.utility-font01 {
+  margin: -10px 0;
+}
+
+.volu-wrapper {
+  margin: 4% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: space-around;
+}
+
+.volu-card {
+  border: 2px solid #763b11;
+  padding: 2% 3%;
+  border-radius: 18px;
+  background: #fff;
+  width: 28vw;
+}
+
+/*  */
+
+/* 
+.about-contact-bg {
+  margin-top: 16%;
+  position: relative;
+}
+
+.about-contact-content {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 14%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  gap: 10%;
+
+  color: #763b11;
+}
+
+.about-footer-logo-tagline {
+  margin-top: 4%;
+}
+
+.about-contact-first {
+  flex: 1;
+}
+
+.about-vertical-ruler {
+  width: 1px;
+  background: #763b11;
+  height: 31vh;
+}
+
+.about-contact-second {
+  flex: 1.3;
+}
+
+.about-contact-first img {
+  width: 36%;
+}
+
+.about-social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.about-footer-sl {
+  width: 6%;
+  cursor: pointer;
+} */
+
+@media screen and (max-width: 999px) {
+  .volu-card {
+    width: 44vw;
+  }
+  .about-wrapper {
+    padding: 10% 5% 0 5%;
+    /* margin-bottom: -10%; */
+  }
+}
+
+/* @media screen and (max-width: 799px) {
+  .about-footer-logo-tagline {
+    display: none;
+  }
+  .about-contact-first img {
+    width: 48% !important;
+  }
+  .about-contact-second ul li p {
+    font-size: 90% !important;
+  }
+
+  .about-contact-second ul li {
+    line-height: 1.2;
+  }
+
+  .about-social-links {
+    margin-top: -10%;
+  }
+
+  .about-vertical-ruler {
+    height: 16vh !important;
+  }
+} */
+
+/* @media screen and (max-width: 699px) {
+  .about-contact-second ul li p {
+    font-size: 80% !important;
+    margin-bottom: 5px;
+  }
+
+  .about-social-links {
+    margin-top: -10%;
+  }
+
+  .about-vertical-ruler {
+    height: 16vh !important;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .volu-card {
+    width: 85vw;
+  }
+  /* .about-contact-second {
+    font-size: 70%;
+    flex: 1.8;
+  }
+  .about-vertical-ruler {
+    height: 8vh !important;
+  }
+
+  .about-contact-first img {
+    width: 70% !important;
+  } */
+}

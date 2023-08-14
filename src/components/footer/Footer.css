@@ -1,0 +1,112 @@
+.contact {
+  min-width: 100vw;
+  width: 100vw;
+  background: #fffded;
+}
+
+/* ----------------------- Super CSS ----------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+.spec-font {
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.primary-font {
+  font-size: 140%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.add-font {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tertiary_font {
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* Footer */
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 14%;
+
+  width: 100vw;
+  gap: 8%;
+
+  color: #763b11;
+}
+
+.footer-logo-tagline {
+  margin-top: 4%;
+}
+
+.contact-first {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+
+.vertical-ruler {
+  width: 1px;
+  background: #763b11;
+  height: 31vh;
+}
+
+.contact-second {
+  flex: 1;
+}
+
+.contact-first img {
+  width: 45%;
+  min-width: 80px;
+}
+
+.contact-third {
+  flex: 1;
+}
+
+.footer-sl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-sl p {
+  margin: 0;
+  font-size: 120%;
+}
+.ficn {
+  max-width: 30px !important;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-sl {
+  width: 6%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-content {
+    flex-direction: column;
+    padding: 10% !important;
+  }
+  .vertical-ruler {
+    display: none;
+  }
+}

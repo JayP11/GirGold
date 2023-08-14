@@ -1,0 +1,52 @@
+.report {
+  padding: 5% 10%;
+}
+
+.rp-header {
+  text-align: center;
+  color: #e0a63a;
+  font-size: 160%;
+  font-weight: 600;
+}
+
+.rp-tbl {
+  margin-top: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #fffded;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fffded;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:nth-child(1) {
+  background: #763b11;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .rp-tbl table {
+    display: block !important;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 99%;
+  }
+}

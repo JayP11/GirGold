@@ -1,0 +1,35 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.caw_wrapp {
+  min-height: 60vh;
+  margin-top: 1rem;
+}
+
+.caw_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caw_text > p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  margin-top: 1rem;
+}
+
+@media (max-width: 920px) {
+  .caw_wrapp {
+    min-height: 40vh;
+    /* margin-top: 1rem; */
+  }
+
+  .caw_text > p {
+    font-size: 1.2rem;
+  }
+}

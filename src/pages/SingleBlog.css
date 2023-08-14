@@ -1,0 +1,164 @@
+.single-blog-page {
+  margin: 10% 5% 5% 5%;
+}
+
+.sbp-title,
+.sbp-sub-title {
+  color: #763b11;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 50%;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.sbp-description {
+  color: dimgrey;
+}
+
+.sbp-content {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.sbp-content-txt {
+  flex: 2;
+  text-align: justify;
+  height: 50vh;
+  overflow: scroll;
+}
+
+.sbp-content-img {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* SBP Footer */
+/* 
+.sbp-contact {
+}
+
+.sbp-contact-bg {
+  margin-top: 16%;
+  position: relative;
+}
+
+.sbp-contact-content {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 14%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  gap: 10%;
+
+  color: #763b11;
+}
+
+.sbp-footer-logo-tagline {
+  margin-top: 4%;
+}
+
+.sbp-contact-first {
+  flex: 1;
+}
+
+.sbp-vertical-ruler {
+  width: 1px;
+  background: #763b11;
+  height: 31vh;
+}
+
+.sbp-contact-second {
+  flex: 1.3;
+}
+
+.sbp-contact-first img {
+  width: 36%;
+}
+
+.sbp-social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.sbp-footer-sl {
+  width: 6%;
+  cursor: pointer;
+} */
+
+/* Media Query */
+
+/* @media screen and (max-width: 799px) {
+  .sbp-footer-logo-tagline {
+    display: none;
+  }
+  .sbp-contact-first img {
+    width: 48% !important;
+  }
+  .sbp-contact-second ul li p {
+    font-size: 90% !important;
+  }
+
+  .sbp-contact-second ul li {
+    line-height: 1.2;
+  }
+
+  .sbp-social-links {
+    margin-top: -10%;
+  }
+
+  .sbp-vertical-ruler {
+    height: 16vh !important;
+  }
+} */
+
+@media screen and (max-width: 699px) {
+  /* .sbp-contact-second ul li p {
+    font-size: 80% !important;
+    margin-bottom: 5px;
+  }
+
+  .sbp-social-links {
+    margin-top: -10%;
+  }
+
+  .sbp-vertical-ruler {
+    height: 16vh !important;
+  } */
+  .sbp-content {
+    flex-direction: column-reverse;
+    gap: 5%;
+  }
+  .sbp-content-img {
+    text-align: left;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .sbp-contact-second {
+    font-size: 70%;
+    flex: 1.8;
+  }
+  .sbp-vertical-ruler {
+    height: 8vh !important;
+  }
+
+  .sbp-contact-first img {
+    width: 70% !important;
+  }
+} */
+
+/* @media screen and (max-width: 400px) {
+  .sbp-contact-second {
+    font-size: 60%;
+  }
+} */

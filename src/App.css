@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+html {
+  background: #f9f8f0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.spec-font {
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.primary-font {
+  font-size: 150%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.secondary-font {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tertiary_font {
+  font-size: 110%;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.whats-app {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  right: 15px;
+}
+
+.my-float {
+  margin-top: 12px;
+}
+
+
+/* For Subscription Button */
+
+.subscription-btn {
+  position: fixed;
+  /* width: 55px;
+    height: 55px; */
+  bottom: 50%;
+  /* border-radius: 50px; */
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  right: -35px;
+  padding: 15px 25px;
+  background-color: #763b11;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transform: rotate(90deg);
+
+}

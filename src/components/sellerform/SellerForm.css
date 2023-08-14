@@ -1,0 +1,162 @@
+.form-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.form {
+    /* width: 500px;
+    height: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+.form-field-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-lbl {
+    color: #763b11;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-inp {
+    height: 125px;
+    border-color: #763b11;
+    border: 1px solid #763b11;
+    padding: 20px 20px 20px 20px;
+}
+
+.radio-box {
+    display: flex;
+    gap: 5px;
+}
+
+.radio-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+[type="radio"]:checked+label:after {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.form-btn {
+    background: #e0a63a;
+    border: 1px solid #763b11;
+    color: #763b11;
+    font-size: 1rem;
+    margin-top: 2%;
+    min-height: 2rem;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+
+.form-btn:hover {
+    background-color: #763b11;
+    color: #e0a63a;
+}
+
+input[name="gender"] {
+    accent-color: #763b11;
+}
+
+.form-heading {
+    font-size: 40px;
+    color: #e0a63a;
+    font-weight: 600;
+    margin: 0px;
+
+}
+
+.form-heading-inner {
+    font-size: 40px;
+    color: #e0a63a;
+    font-weight: 600;
+    padding-left: 130px;
+}
+
+.form-head-inn {
+    color: #763b11;
+}
+
+.form-heading-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+.upload-btn {
+    background: #763b11;
+    color: #e0a63a;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 15px;
+    text-align: start;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.file-upl-txt {
+    color: #763b11;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.upl-part {
+    width: 100%;
+
+}
+
+.radio-clr {
+    accent-color: #763b11;
+}
+
+@media screen and (max-width: 550px) {
+    .form-inp {
+        height: 100%;
+        padding: 20px 0px 0px 20px;
+        width: 100%;
+    }
+
+    .form-heading {
+        font-size: 26px;
+        margin-bottom: 3px;
+    }
+
+    .form-heading-inner {
+        font-size: 26px;
+        padding-left: 60px;
+    }
+
+    .form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-lbl {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    ..upload-btn {
+        font-size: 16px;
+    }
+}
