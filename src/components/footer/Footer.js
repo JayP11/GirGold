@@ -33,7 +33,7 @@ const Footer = () => {
               <p className="">
                 {/* વૃજ વાડી, રૈયા ગામ, રૈયા રોડ, રાજકોટ */}
                 {/* VRAJ VADI RAIYA ROAD SURVEY NO.312/1 NEAR PARSHURAM TEMPLE RAIYA
-                GAAM RAJKOT 360005 */}
+              GAAM RAJKOT 360005 */}
                 Mazzanine Floor Rotary Dolls Museum Opp. Heera Panna Complex Dr.
                 Yagnik Road Rajkot 36001
               </p>
@@ -42,7 +42,7 @@ const Footer = () => {
           <br></br>
           {/* <p className="add-font"> Other Links</p> */}
         </div>
-        <div className="contact-second">
+        <div className="contact-second add_bar">
           {/* <p className="add-font">Contact</p> */}
           <ul className="tertiary-font">
             <li>
@@ -61,9 +61,11 @@ const Footer = () => {
         <div className="contact-first">
           <img draggable="false" src={gglogo} />
           <p className="footer-logo-tagline tertiary-font">
-            સૌરાષ્ટ્રની ઉત્તમ પ્રકારની ગીર ગાયના
+            {/* સૌરાષ્ટ્રની ઉત્તમ પ્રકારની ગીર ગાયના
             <br />
-            શુદ્ધ અને સાત્વિક A2 દૂધના ઉત્પાદનો{" "}
+            શુદ્ધ અને સાત્વિક A2 દૂધના ઉત્પાદનો{" "} */}
+            Pure and sattvic A2 milk products from Saurashtra's finest breed of
+            Gir cow
           </p>
         </div>
         <div className="contact-third">

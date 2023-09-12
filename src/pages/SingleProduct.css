@@ -1,3 +1,9 @@
+.about-gg-border {
+  /* border: 2px solid #f9f8f0; */
+  border-radius: 22px;
+  background-color: #763b11;
+  padding: 0%;
+}
 .spec-font {
   font-size: 120%;
   font-weight: 600;
@@ -22,8 +28,12 @@
 }
 /*  */
 
+.pro_det_main {
+  display: flex;
+}
+
 .product-detail {
-  margin: 5%;
+  margin: 5% 5% 5% 0%;
   display: flex;
   flex-direction: row;
 }
@@ -107,6 +117,10 @@
   margin-top: 4%;
 }
 
+.note_sec {
+  margin-left: 8rem;
+}
+
 .pro-ben-list,
 .pro-nut-list {
   height: 300px;
@@ -141,6 +155,25 @@
   margin-top: 10%;
 }
 
+.note_main {
+  margin-left: 8rem;
+  border: 2px solid;
+  border-radius: 18px;
+  border-color: #763b11;
+  margin-left: 5%;padding: 1rem;
+  /* background-color: #763b11; */
+  padding: 0rem;
+}
+
+.note_h2 {
+  /* color: #fff; */
+  padding: 1rem 0 0 2rem;
+}
+
+.note_para {
+  /* color: #fff; */
+  padding: 0 2rem 3px;
+}
 /* Single Product Footer */
 /* 
 .sp-contact {
@@ -251,6 +284,21 @@
   .sp-contact-second ul li p {
     margin-bottom: 5px;
   } */
+
+  .pro_det_main {
+    flex-direction: column;
+  }
+  .pro-header-title {
+    margin-left: 2rem;
+  }
+  .pro-ben-title {
+    margin-left: 2rem;
+  }
+  .pro-ben-list,
+  .pro-nut-list {
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {

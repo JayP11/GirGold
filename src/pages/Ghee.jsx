@@ -32,60 +32,138 @@ const Ghee = () => {
       </section>
       {/* ------------------- Product Detail ------------------- */}
       <section className="product-detail">
-        <div className="pro-img-wrapper">
-          <img draggable="false" src={pro_img02} />
-          <a className="dl-broc-btn">Download Brochure</a>
-        </div>
-        <div className="pro-detail-wrapper">
-          <div className="pro-header-title">
-            <img
-              draggable="false"
-              className="pro-detail-title"
-              src={pro_title02}
-            />
-          </div>
-          {/* <div className="pro-type-title">
+        <div>
+          <div className="pro_det_main">
+            <div className="pro-img-wrapper">
+              <img draggable="false" src={pro_img02} />
+              <a className="dl-broc-btn">Download Brochure</a>
+            </div>
+            <div className="pro-detail-wrapper">
+              <div className="pro-header-title">
+                <img
+                  draggable="false"
+                  className="pro-detail-title"
+                  src={pro_title02}
+                />
+              </div>
+              {/* <div className="pro-type-title">
             <p></p>
           </div> */}
-          <div className="pro-sub-detail">
-            <div className="pro-ben-wrapper">
-              <p className="secondary-font pro-ben-title">
-                આહારમાં ઘીના ફાયદાઓ
-              </p>
-              <p className="tertiary-font pro-ben-list">
-                <p>બુદ્ધિનો વિકાસ કરે</p>
-                <p>યાદ શક્તિ વધારે, ગ્રહણ શક્તિ - Grasping Power ખીલે</p>
-                <p>
-                  ધારણા શક્તિ ઉન્નત બને છે એટલે મનને સ્વસ્થ, શાંત અને એકાગ્ર
-                  કરવામાં મદદરુપ
-                </p>
-                <p>પાચનતંત્ર મજબૂત બનાવે</p>
-                <p>શક્તિ વર્ધક</p>
-                <p>ઓબેસીટી (મેદસ્વિતા)નું નિયમન કરે</p>
-                <p>
-                  વીર્ય ઉત્પન્ન કરે, ઓજ-તેજ વધે અને વ્યક્તિ પ્રતિભા સંપન્ન બને
-                </p>
-                <p>આંખોને સ્વસ્થ રાખે – તેજ વધારે</p>
-                <p>સ્વાસ્થ્ય વર્ધક</p>
-                <p>વૃદ્ધત્વની પ્રક્રિયા ને ધીમી કરે, આયુષ્યમાં વધારો કરે</p>
-                <p>અવાજને નરમ અને મધુર બનાવે</p>
+              <div className="pro-sub-detail">
+                <div className="pro-ben-wrapper">
+                  <p className="secondary-font pro-ben-title">
+                    {/* આહારમાં ઘીના ફાયદાઓ */}
+                    Gir Cow's Ghee Nectar in Diet
+                  </p>
+                  <p className="tertiary-font pro-ben-list">
+                    <p>
+                      {/* બુદ્ધિનો વિકાસ કરે */}
+                      Develop intelligence
+                    </p>
+                    {/* <p>યાદ શક્તિ વધારે, ગ્રહણ શક્તિ - Grasping Power ખીલે</p> */}
+                    <p>
+                      Memory increases, Absorption Power - Grasping Power
+                      flourishes
+                    </p>
+                    <p>
+                      {/* ધારણા શક્તિ ઉન્નત બને છે એટલે મનને સ્વસ્થ, શાંત અને એકાગ્ર
+                  કરવામાં મદદરુપ */}
+                      Perception is enhanced thus helping to keep the mind
+                      healthy, calm and focused
+                    </p>
+                    {/* <p>પાચનતંત્ર મજબૂત બનાવે</p> */}
+                    <p>Strengthens the digestive system</p>
+                    {/* <p>શક્તિ વર્ધક</p> */}
+                    <p>Power booster</p>
+                    {/* <p>ઓબેસીટી (મેદસ્વિતા)નું નિયમન કરે</p> */}
+                    <p>Regulates obesity</p>
+                    <p>
+                      {/* વીર્ય ઉત્પન્ન કરે, ઓજ-તેજ વધે અને વ્યક્તિ પ્રતિભા સંપન્ન બને */}
+                      Produces semen, vigor increases and the person becomes
+                      gifted.
+                    </p>
+                    {/* <p>આંખોને સ્વસ્થ રાખે – તેજ વધારે</p> */}
+                    {/* <p>સ્વાસ્થ્ય વર્ધક</p> */}
+                    {/* <p>વૃદ્ધત્વની પ્રક્રિયા ને ધીમી કરે, આયુષ્યમાં વધારો કરે</p> */}
+                    {/* <p>અવાજને નરમ અને મધુર બનાવે</p>
                 <p>Post Suirgical Care વખતે આહારમાં ઉપયાગી</p>
                 <p>ગર્ભાવસ્થા દરમિયાન આહારનું આવશ્યક ઘટક</p>
                 <p>
                   બે ટીપાં નવજાત શિશુને પણ આપી શકાય અને સ્તનપાન કરાવતી માતા માટે
                   આહારમાં અતિ આવશ્યક ઘટક
-                </p>
+                </p> */}
+                    <p>Keeps eyes healthy – increases brightness</p>
+                    <p>Health booster</p>
+                    <p>Slows down the aging process, increases longevity</p>
+                    <p>Makes voice soft and sweet</p>
+                    <p>Useful in diet during post surgical care</p>
+                    <p>An essential component of diet during pregnancy</p>
+                    <p>
+                      Two drops can also be given to newborns and an essential
+                      part of the diet for nursing mothers
+                    </p>
+                  </p>
+                </div>
+                <div className="pro-ben-wrapper">
+                  <p className="secondary-font pro-ben-title">
+                    {/* આહારમાં ઘીના ફાયદાઓ */}
+                    Gir Cow's Ghee Cures the Health
+                  </p>
+                  <p className="tertiary-font pro-ben-list">
+                    <p>It regulates cholesterol</p>
+                    <p>Helps in healing broken bones </p>
+                    <p>Cures insomnia.</p>
+                    <p>
+                      Reduces the fat of obese person and increases the fat of
+                      weak person
+                    </p>
+
+                    <p>Beneficial in curing ulcers, constipation</p>
+
+                    <p>
+                      Dry skin, chapped lips, cracked feet ... It is beneficial
+                      in all
+                    </p>
+                    <p>
+                      Useful in the treatment of burns, blisters, wounds etc.
+                    </p>
+                    <p>
+                      Helps in Vision loss, Arthritis, Parkinson's Decease,
+                      Aging, Alzheimer's, Coronary Heart Disease, Blood
+                      pressure, certain Cancer Cells. Many ailments can be
+                      treated under the guidance and supervision of an expert
+                      Ayurveda Doctor.
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="note_main">
+            <div className="note_h2">
+              <h2>Note:</h2>
+            </div>
+            <div className="note_para">
+              <p>
+                Buttermilk is made from buttermilk, buttermilk ghee, by the
+                indigenous Valona method by obtaining pure, fresh, A2 milk from
+                Gir cows.
               </p>
             </div>
-            <div className="pro-nut-wrapper">
-              <p className="secondary-font pro-nut-title">નૉૅધ :</p>
-              <p className="tertiary-font pro-nut-list">
+          </div> */}
+          <div className="note_main">
+            {/* <div className="about-gg-border"> */}
+              <div className="note_h2">
+                <h2>Note:</h2>
+              </div>
+              <div className="note_para">
                 <p>
-                  ગીર ગાયનાં શુદ્ધ, તાજા, A2 દૂધને મેળવીને દેશી વલોણા પદ્ધતિથી
-                  છાશમાંથી માખણ એ માખણનું ઘી ', બનાવવામાં આવે છે.
+                  Buttermilk is made from buttermilk, buttermilk ghee, by the
+                  indigenous Valona method by obtaining pure, fresh, A2 milk
+                  from Gir cows.
                 </p>
-              </p>
-            </div>
+              </div>
+            {/* </div> */}
           </div>
         </div>
       </section>
@@ -152,6 +230,7 @@ const Ghee = () => {
           <div className="sp-contact-third"></div>
         </div>
       </section> */}
+
       <Footer className="home-footer" />
     </>
   );

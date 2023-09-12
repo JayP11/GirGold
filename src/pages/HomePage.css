@@ -870,7 +870,7 @@ li:nth-child(2) {
     max-width: 18% !important;
   }
   .navbar-content {
-    margin: 0 5% 0 5% !important;
+    /* margin: 0 5% 0 5% !important; */
   }
   .nav-link {
     font-size: 1rem !important;
@@ -907,7 +907,9 @@ li:nth-child(2) {
     row-gap: 30px;
     margin: 5%;
   }
-
+.nav-link {
+    font-size: 0.7rem !important;
+  }
   /* .why-bottle {
     top: 44%;
     right: 45.7%;
@@ -919,9 +921,9 @@ li:nth-child(2) {
     max-width: 40% !important;
   }
 
-  .nav-link {
-    font-size: 1rem !important;
-  }
+  /* .nav-link {
+    font-size: 0.7rem !important;
+  } */
   .vertical-ruler {
     height: 20vh !important;
   }

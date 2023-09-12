@@ -35,10 +35,11 @@
 .contact-content {
   display: flex;
   flex-direction: row;
-  padding: 4% 14%;
+  /* padding: 4% 14%; */
+  padding: 4%;
 
   width: 100vw;
-  gap: 8%;
+  gap: 4%;
 
   color: #763b11;
 }
@@ -54,6 +55,7 @@
   /* justify-content: center; */
   align-items: center;
   gap: 20px;
+  /* margin-left: 3rem; */
 }
 
 .vertical-ruler {
@@ -73,6 +75,14 @@
 
 .contact-third {
   flex: 1;
+  display: flex;
+  justify-content:center;
+  /* margin-left: 3rem; */
+}
+
+.add_bar{
+    /* margin-left: 3rem;
+    margin-right: 1rem; */
 }
 
 .footer-sl {
@@ -101,12 +111,15 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .contact-content {
     flex-direction: column;
     padding: 10% !important;
   }
   .vertical-ruler {
     display: none;
+  }
+  .contact-third{
+    justify-content: flex-start;
   }
 }

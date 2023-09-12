@@ -521,7 +521,8 @@ const HomePage = () => {
           </Link> */}
         </div>
         <div className="home-values">
-          <p className="primary-font hv-title">શુદ્ધતાનું વચન</p>
+          {/* <p className="primary-font hv-title">શુદ્ધતાનું વચન</p> */}
+          <p className="primary-font hv-title">A promise of purity</p>
           <div className="hv-list">
             <div className="hv-item">
               <img draggable="false" src={pro_icn011} />
